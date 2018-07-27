@@ -1,0 +1,25 @@
+{
+   "name": "Chat-Server",
+   "version": "0.0.1",
+   "description": "Awesome project developed with TypeORM.",
+   "devDependencies": {
+      "@types/node": "^10.5.3",
+      "ts-node": "7.0.0",
+      "typescript": "2.9.2"
+   },
+   "dependencies": {
+      "@types/mocha": "^5.2.5",
+      "@types/mongodb": "^3.1.2",
+      "install": "^0.12.1",
+      "inversify": "^4.13.0",
+      "inversify-express-utils": "^6.1.0",
+      "mocha": "^5.2.0",
+      "mongodb": "^3.1.1",
+      "npm": "^6.2.0",
+      "reflect-metadata": "^0.1.12",
+      "typeorm": "0.2.7"
+   },
+   "scripts": {
+      "start": "ts-node src/index.ts"
+   }
+}
